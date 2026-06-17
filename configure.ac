@@ -15,6 +15,7 @@ m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
 
 AM_MAINTAINER_MODE
 
+AC_CONFIG_MACRO_DIR([aclocal])
 AM_GNU_GETTEXT([external])
 
 dnl Add the languages which your application supports here.
